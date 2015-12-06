@@ -31,6 +31,7 @@ public class Home extends HttpServlet
         // TODO Auto-generated method stub
         cluster = CassandraHosts.getCluster();
         
+        /*
         Thread thread = new Thread(new Runnable() 
         {
             @Override
@@ -41,6 +42,7 @@ public class Home extends HttpServlet
         });
         
         thread.start();
+        */
     }
     
     /**
